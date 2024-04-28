@@ -1,0 +1,489 @@
+/*-----------------------------------------*/
+/*-----------Header & Footer---------------*/
+/*-----------------------------------------*/
+
+header {
+  background-color: #cfc;
+  padding: 10px 20px;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #cfc;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+footer::before {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  left: 20px; 
+  top: -15px;
+}
+
+.logo img {
+  height: 100px;
+  margin-right: 10px;
+}
+
+.title-motto {
+  position: absolute;
+  top: -15px;
+  left: 110px;
+}
+
+#website-name {
+  font-family: 'Bernard MT', serif;
+  font-size: 25px;
+  margin-left: 45px;
+  margin-bottom: -8px;
+}
+
+#motto {
+  font-family: 'Bell MT', serif;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+body {
+  background-color: #dfd;
+}
+
+/*-----------------------------------------*/
+/*----------------Navigation---------------*/
+/*-----------------------------------------*/
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f7444e;
+  text-decoration: underline;
+}
+
+nav ul li.current-page a {
+  color: #f7444e;
+  text-decoration: underline;
+}
+
+/*-----------------------------------------*/
+/*-----------------BackToTop---------------*/
+/*-----------------------------------------*/
+
+#backToTopBtn {
+  display: block;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 9999;
+  width: 100px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/*-----------------------------------------*/
+/*----------------Index Page---------------*/
+/*-----------------------------------------*/
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 120px;
+}
+
+.image-container {
+  width: 75%;
+  position: relative;
+  margin-right: 50px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.text-container h2,
+.text-container p,
+.lets-learn-button {
+  margin-left: 20px;
+}
+
+.text-container h2,
+.text-container p {
+  font-size: xx-large;
+}
+
+.text-container h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.text-container p {
+  margin-bottom: 20px;
+}
+
+.lets-learn-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #cfc;
+  color: #000;
+  font-family: 'Times New Roman', serif;
+  border: 2px solid #333;
+  border-radius: 25px;
+  text-decoration: none;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.lets-learn-button:hover {
+  background-color: #afa;
+}
+
+/*-----------------------------------------*/
+/*-----------The Topics Page---------------*/
+/*-----------------------------------------*/
+
+.mindmap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.branch {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px;
+}
+
+.branch h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.subtopic {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  margin-left: -30px;
+  display: inline-block;
+  list-style: none;
+  background-color: #cfc;
+  align-items: center;
+}
+
+.branch ul {
+  list-style: none;
+}
+
+.mindmap a, a:active{
+  color: #000;
+}
+
+/*-----------------------------------------*/
+/*-----------Contact us Page---------------*/
+/*-----------------------------------------*/
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-image img {
+  width: 450px;
+  height: auto;
+  margin-right: 150px;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: None;
+  color: #000;
+  font-family: 'Times New Roman', serif;
+  border: 2px solid #333;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: auto;
+  text-align: center;
+}
+
+.buttons-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: none;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact-wrapper p {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.center {
+  text-align: center;
+}
+
+/*-----------------------------------------*/
+/*------------Topics subpage---------------*/
+/*-----------------------------------------*/
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.centerh2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.centerh3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.faq-section .accordion-item {
+  text-align: center;
+}
+
+.accordion-button {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin-left: 5px;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------------------------------------*/
+/*-----------Quiz & Material---------------*/
+/*-----------------------------------------*/
+
+.accordion-content {
+  display: none;
+  background-color: None;
+  padding: 10px;
+  background-color: #cfc;
+  border: 3px solid #339933;
+}
+
+.accordion-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.accordion-title {
+  text-decoration: underline;
+}
+
+.li-title {
+  margin-top: 4px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quiz-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.options-container {
+  width: 100%;
+  text-align: center;
+}
+
+.options-container .option {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #cfc;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options-container .option:hover {
+  background-color: #dfd;
+}
+
+#restart-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#restart {
+  display: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
+
+#restart:hover {
+  background-color: #0056b3;
+}
+
+#quiz-select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #cfc;
+}
+
+#quiz-select:hover {
+  background-color: #dfd;
+}
