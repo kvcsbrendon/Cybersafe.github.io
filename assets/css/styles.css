@@ -116,6 +116,7 @@ nav ul {
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: black;
 }
 
 nav ul li {
