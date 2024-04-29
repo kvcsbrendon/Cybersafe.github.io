@@ -80,6 +80,7 @@ footer::before {
   position: absolute;
   left: 20px; 
   top: -15px;
+  display: inline-block;
 }
 
 .logo img {
