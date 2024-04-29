@@ -180,6 +180,9 @@ nav ul li.current-page a {
   font-size: 20px;
   margin-bottom: 20px;
 }
+h2, h3 {
+  text-decoration: none;
+}
 
 /*-----------------------------------------*/
 /*-----------------Button------------------*/
