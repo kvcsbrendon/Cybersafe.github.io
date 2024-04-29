@@ -298,26 +298,30 @@ select {
 }
 
 .submit-button {
-  display: inline-block;
   padding: 10px 20px;
-  background-color: None;
+  transition: background-color 0.6s ease;
+  margin: 10px;
+  border: 2px solid #339933;
+  background-color: #249924; 
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #cfc;
   color: #000;
   font-family: 'Times New Roman', serif;
-  border: 2px solid #333;
   border-radius: 25px;
-  text-decoration: none;
-  margin: 0 auto;
-  margin-top: auto;
-  text-align: center;
+
+}
+
+.submit-button:hover {
+  background-color: #6fd066;
+  opacity: 0.8;
 }
 
 .buttons-section {
   text-align: center;
   margin-top: 20px;
-}
-
-.submit-button:hover {
-  background-color: none;
 }
 
 .contact-section {
