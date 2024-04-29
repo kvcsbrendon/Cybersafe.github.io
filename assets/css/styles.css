@@ -93,6 +93,7 @@ footer::before {
   top: -15px;
   left: 140px;
   display: inline-block;
+  text-decoration: none;
 }
 
 #website-name {
