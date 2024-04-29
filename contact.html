@@ -33,41 +33,37 @@
      </header>
 <section class="contact-section">
     <div class="contact-wrapper">
-        <h2 class="centerh2">Contact Us</h2>
+      <h2 class="centerh2">Contact Us</h2>
     </div>
     <div class="contact-content">
-        <div class="contact-image">
-            <img src="assets/images/letter-logo.png" alt="Contact Image">
+      <div class="contact-image">
+        <img src="assets/images/letter-logo.png" alt="Contact Image">
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name">
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name">
         </div>
-        <form class="contact-form" action="https://formspree.io/f/mgegdvaa" method="POST" enctype="multipart/form-data" id="contact-form">
-            <div class="form-group">
-                <input type="text" id="firstName" name="firstName" placeholder="First Name">
-                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
-            </div>
-            <div class="form-group">
-                <input type="email" id="email" name="email" placeholder="Email Address" required>
-            </div>
-            <div class="form-group">
-                <select id="reason" name="reason">
-                    <option value="">Select a reason to contact</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="support">Technical Support</option>
-                    <option value="feedback">Feedback</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
-            </div>
-            <section class="buttons-section">
-                <button type="submit" class="submit-button">Submit</button>
-            </section>
-        </form>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <select id="reason" name="reason">
+            <option value="">Select a reason to contact</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+        </div>
+  <section class="buttons-section">
+    <button type="submit" class="submit-button">Submit</button>
+  </section>
+      </form>
     </div>
-    <div id="thank-you-message" style="display: none;">
-        <p>Thank you for your message! We'll get back to you soon.</p>
-    </div>
-</section>
-
+  </section>
 
   <div id="backToTopBtn" onclick="scrollToTop()">
     &#8593;
