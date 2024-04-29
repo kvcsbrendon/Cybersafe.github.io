@@ -92,6 +92,7 @@ footer::before {
   position: absolute;
   top: -15px;
   left: 140px;
+  display: inline-block;
 }
 
 #website-name {
