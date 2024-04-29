@@ -681,7 +681,7 @@ select {
     display: none; /* Hide the nav menu by default on smaller screens */
   }
 
-  #website-name, #motto{
+  #website-name, #motto, .contact-image img{
     display: none;
   }
 
