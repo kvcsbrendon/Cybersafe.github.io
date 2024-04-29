@@ -652,3 +652,48 @@ select {
   color: #6fd066;
   opacity: 0.8;
 }
+
+/* Hamburger Menu Button */
+.menu-toggle {
+  display: none; /* Hide by default */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show on smaller screens */
+  }
+
+  nav ul {
+    display: none; /* Hide the nav menu by default on smaller screens */
+  }
+
+  nav.open ul {
+    display: flex; /* Display the nav menu when open */
+    flex-direction: column; /* Stack items vertically */
+    background-color: #cfc; /* Adjusted background color */
+    padding: 10px 20px; /* Adjusted padding */
+    position: absolute;
+    top: 100%; /* Position below the header */
+    left: 0;
+    width: 100%;
+  }
+
+  nav.open ul li {
+    margin-left: 0; /* Reset margin */
+    margin-bottom: 10px; /* Add margin between items */
+  }
+}
