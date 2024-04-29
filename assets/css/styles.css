@@ -101,18 +101,21 @@ footer::before {
   font-size: 25px;
   margin-left: 45px;
   margin-bottom: -8px;
+  text-decoration: none;
 }
 
 #motto {
   font-family: 'Bell MT', serif;
   font-size: 15px;
   margin-top: 15px;
+  text-decoration: none;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 nav ul li {
