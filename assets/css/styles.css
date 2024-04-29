@@ -680,12 +680,9 @@ select {
   nav ul {
     display: none; /* Hide the nav menu by default on smaller screens */
   }
-  .logo img {
-    display: none;
-  }
+
   #website-name, #motto{
-    text-aligned: center;
-    items-aligned: left;
+    display: none;
   }
 
   nav.open ul {
