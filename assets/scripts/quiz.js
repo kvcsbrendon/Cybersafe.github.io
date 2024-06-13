@@ -285,8 +285,8 @@
         { question: "A company wants to ensure secure wireless access for its employees. Which device should they implement?", options: ["A. Switch", "B. Router", "C. Access Point", "D. USB Hub"], answer: "C. Access Point" },
         { question: "An organization needs to regularly monitor and manage its network performance. Which tool is most suitable for this task?", options: ["A. Flash Drive", "B. Network Monitoring Software", "C. Router", "D. Ethernet Cable"], answer: "B. Network Monitoring Software" },
         { question: "A business needs to store a large amount of data securely and make it accessible to multiple users. Which type of network should they consider?", options: ["A. Local Area Network (LAN)", "B. Storage Area Network (SAN)", "C. Personal Area Network (PAN)", "D. Wide Area Network (WAN)"], answer: "B. Storage Area Network (SAN)" },
-        { question: "An employee needs to transfer a large file from their computer to another. What external media could they use?", options: ["A. Flash Drive", "B. Router", "C. Ethernet Cable", "D. Packet Sn
-
+        { question: "An employee needs to transfer a large file from their computer to another. What external media could they use?", options: ["A. Flash Drive", "B. Router", "C. Ethernet Cable", "D. Packet Sniffer"], answer: "A. Flash Drive" },
+        { question: "A company identifies several security weaknesses in its network. What tool should they use to manage these vulnerabilities?", options: ["A. USB Hub", "B. Access Point", "C. Vulnerability Scanner", "D. Ethernet Cable"], answer: "C. Vulnerability Scanner" }
     ],
 
     //B3 - Definition
