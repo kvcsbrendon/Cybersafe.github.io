@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>CyberSafe - B3 Networking infrastructure services and resources</title>
+  <meta name="keywords" content="BTEC, Level 3, Year 2, Extended Diploma, RQF, Unit 11, Cyber Security, Cybersecurity, Unit 11 - Cyber Security and Incident Management, exam, january  " />
+  <meta name="description" content="This is an educational website focusing on Unit 11 - Cyber Security & Incident Management." />
+  <meta name="author" content="Brendon Kovacs" />
+  <link rel="icon" type="image/png" href="assets/images/logo2.png"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <script src="assets/scripts/backtotop.js"></script>
+  <script src="assets/scripts/expand.js"></script>
+  <script src="assets/scripts/quiz.js"></script>
+  <script src="assets/scripts/mobile.js"></script>
+
+</head>
+<body>
+    <header>
+      <div class="logo">
+          <a href="index.html">
+              <img src="assets/images/logo.png" alt="Website Logo">
+          </a>
+      </div>
+      <div class="title-motto" style="text-decoration: none;">
+          <a href="index.html">
+              <h1 id="website-name" style="text-decoration: none;">CyberSafe</h1>
+              <h2 id="motto" style="text-decoration: none;">Keeping the digital realm safe</h2>
+          </a>
+      </div>
+      <button class="menu-toggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="topics.html">Topics</a></li>
+              <li><a href="docs.html">Docs</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <section class="faq-section">
+    <div class="container">
+        <h2 class="centerh2">Networking Infrastructure Services and Resources</h2>
+        <h3 class="centerh3">Understanding Networking Infrastructure Services and Resources</h3>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false" class="accordion-button">
+                    <span class="accordion-title">TCP/IP and Network Components</span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <ul>
+                        <li><strong><u>TCP/IP and Network Components</u></strong>
+                            <ul>
+                                <li class="li-title"><u>Transmission Control Protocol/Internet Protocol (TCP/IP):</u> Protocol suite used for data transmission over the internet.</li>
+                                <li><u>Ports:</u> Logical endpoints for network communications.</li>
+                                <li><u>Packets:</u> Units of data transmitted over a network.</li>
+                                <li><u>Network Address Translation (NAT):</u> Method of mapping private IP addresses to a public IP address.</li>
+                                <li><u>IPv4 and IPv6 Addressing:</u> Structures of IPv4 (32-bit) and IPv6 (128-bit) addressing, including RFC 1918 private addresses.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false" class="accordion-button">
+                    <span class="accordion-title">Network Operating Systems</span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <ul>
+                        <li><strong><u>Network Operating Systems</u></strong>
+                            <ul>
+                                <li class="li-title"><u>Domains and Sub-Domains:</u> Structures within a network operating system for organizing and managing resources.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false" class="accordion-button">
+                    <span class="accordion-title">Network Configuration and Segmentation</span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <ul>
+                        <li><strong><u>Network Configuration and Segmentation</u></strong>
+                            <ul>
+                                <li class="li-title"><u>Network Devices:</u> Tools used to configure and segment networks, such as routers, switches, and firewalls.</li>
+                                <li><u>Network Segmentation:</u> Dividing a network into smaller, manageable segments to improve performance and security.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false" class="accordion-button">
+                    <span class="accordion-title">Network Infrastructure Services</span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <ul>
+                        <li><strong><u>Network Infrastructure Services</u></strong>
+                            <ul>
+                                <li class="li-title"><u>Domain Name System (DNS):</u> Service that translates domain names to IP addresses.</li>
+                                <li><u>Directory Services (DS):</u> Systems like Active Directory, Open Directory, and OpenLDAP that manage network resources and user information.</li>
+                                <li><u>Authentication Services:</u> Services that verify user identities, such as LDAP and Kerberos.</li>
+                                <li><u>Dynamic Host Configuration Protocol (DHCP):</u> Protocol for automatically assigning IP addresses to devices on a network.</li>
+                                <li><u>Routing:</u> Process of selecting paths in a network to send data packets.</li>
+                                <li><u>Remote Access Services:</u> Services that allow users to connect to a network remotely.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false" class="accordion-button">
+                    <span class="accordion-title">Network Services and Resources</span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <ul>
+                        <li><strong><u>Network Services and Resources</u></strong>
+                            <ul>
+                                <li class="li-title"><u>File and Print Services:</u> Services that manage file storage and printing resources.</li>
+                                <li><u>Web, Mail and Communications Services:</u> Services for hosting websites, managing email, and facilitating communications.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+    <section class="Quiz">
+        <div id="container">
+            <div id="quiz-container">
+                <h2 id="question"></h2>
+                <div id="options" class="options-container"></div>
+                <div id="feedback"></div>
+                <select id="quiz-select">
+                    <option value="quiz1">Select Type of Question</option>
+                    <option value="quiz23">Definition</option>
+                    <option value="quiz24">True or False</option>
+                    <option value="quiz25">Scenario</option>
+                </select>
+                <div id="restart-container">
+                    <button id="restart">Restart Quiz</button>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <br>
+    <br>
+    
+    <div id="backToTopBtn" onclick="scrollToTop()">
+        &#8593;
+      </div>
+    
+      <footer>
+        <div class="footer-content">
+            <div class="left-content">
+                <a href="https://mega.nz/folder/JOJwEQ5Q#mi3YKjYAENozP7Xjx_pmUQ" target="_blank"><img src="assets/images/mega-icon.svg" alt="Mega Logo" style="width: 50px;"></a>
+            </div>
+            <div class="center-content">
+                <div class="website-info">
+                    <h4>CyberSafe</h4>
+                    <p>Keeping the digital realm safe</p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2024 CyberSafe is property of Brandonia Ltd. All rights reserved.</p>
+                </div>
+                <div class="legal-links">
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="attribution.html">Attribution</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-content">
+                <a href="https://github.com/kvcsbrendon/kvcsbrendon.github.io" target="_blank"><img src="assets/images/GitHub-logo.png" alt="GitHub Logo" style="width: 90px;"></a>
+            </div>
+        </div>
+      </footer>
+    
+</body>
+</html>
