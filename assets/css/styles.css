@@ -724,3 +724,34 @@ select {
     margin-bottom: 10px; /* Add margin between items */
   }
 }
+
+/* Table Styles */
+.accordion-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.accordion-content th, .accordion-content td {
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
+.accordion-content th {
+    background-color: #6fd066;
+}
+
+.accordion-content td {
+    background-color: #cfc;
+}
+
+.accordion-content td:hover {
+    background-color: #249924;
+}
+
+/* Centering Table */
+.accordion-content table {
+    margin-left: auto;
+    margin-right: auto;
+}
