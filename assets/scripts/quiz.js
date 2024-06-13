@@ -162,13 +162,236 @@ const quizData = {
     ],
 
     //A3 - Tue and False
-    quiz8: [
+    quiz9: [
         { question: "True or False: Data protection legislation ensures the unrestricted sharing of personal data.", options: ["True", "False"], answer: "False" },
         { question: "True or False: Computer misuse legislation includes definitions of illegal practices such as hacking.", options: ["True", "False"], answer: "True" },
         { question: "True or False: Telecommunications regulations do not allow companies to monitor employee communications.", options: ["True", "False"], answer: "False" },
         { question: "True or False: Fraud legislation deals with preventing IT-based methods of stealing information.", options: ["True", "False"], answer: "True" },
         { question: "True or False: The Health and Safety Executive (HSE) is responsible for employee health insurance.", options: ["True", "False"], answer: "False" }
     ],
+
+    //A3 - Scenario
+    quiz10: [
+        { question: "An employee is caught accessing confidential customer data without authorization. Under which legislation would this act likely fall?", options: ["A. Data Protection Legislation", "B. Computer Misuse Legislation", "C. Health and Safety Legislation", "D. Telecommunications Regulations"], answer: "B. Computer Misuse Legislation" },
+        { question: "A company wants to ensure that it complies with laws regarding the handling and protection of personal data. Which policy should they focus on?", options: ["A. Fraud Legislation", "B. Data Protection Policy", "C. Health and Safety Policy", "D. Telecommunications Regulations"], answer: "B. Data Protection Policy" },
+        { question: "A business wants to monitor employee internet use to prevent misuse of resources. Which regulation allows them to do this?", options: ["A. Data Protection Legislation", "B. Computer Misuse Legislation", "C. Telecommunications Regulations", "D. Health and Safety Legislation"], answer: "C. Telecommunications Regulations" },
+        { question: "A hacker gains access to a company’s database and steals sensitive customer information. Which legislation does this violate?", options: ["A. Health and Safety Legislation", "B. Data Protection Legislation", "C. Telecommunications Regulations", "D. Fraud Legislation"], answer: "D. Fraud Legislation" },
+        { question: "A company wants to ensure that their office environment complies with legal standards for employee safety. Which organization should they refer to?", options: ["A. International Organization for Standardization (ISO)", "B. Health and Safety Executive (HSE)", "C. Federal Communications Commission (FCC)", "D. Data Protection Authority (DPA)"], answer: "B. Health and Safety Executive (HSE)" }
+
+    ],
+
+    //A4 - Definition
+    quiz11: [
+        { question: "What is the primary purpose of locks in physical security measures?", options: ["To monitor network traffic.", "To restrict physical access to sensitive areas.", "To encrypt data.", "To provide internet access."], answer: "To restrict physical access to sensitive areas." },
+        { question: "What is a Closed-Circuit Television (CCTV)?", options: ["A type of encryption technology.", "A surveillance system used to monitor and record activities.", "A tool for data backup.", "A device for wireless communication."], answer: "A surveillance system used to monitor and record activities." },
+        { question: "What is the function of biometric authentication?", options: ["To secure data backups.", "To identify individuals based on unique physical characteristics.", "To manage network traffic.", "To encrypt communications."], answer: "To identify individuals based on unique physical characteristics." },
+        { question: "What are firewalls used for?", options: ["To filter and monitor incoming and outgoing network traffic.", "To store backup data.", "To restrict physical access to buildings.", "To provide wireless internet access."], answer: "To filter and monitor incoming and outgoing network traffic." },
+        { question: "What is the role of data storage in physical security?", options: ["To manage network security policies.", "To securely store important data on-site and off-site.", "To provide encryption services.", "To monitor employee activities."], answer: "To securely store important data on-site and off-site." }
+    ],
+    
+    //A4 - True and False
+    quiz12: [
+        { question: "True or False: Biometric authentication uses unique physical characteristics to verify identity.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: CCTV systems are used to monitor and record activities within and around a site.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Locks are a type of software protection measure.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Firewalls are used to restrict physical access to sensitive areas.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Data backups should only be stored on-site to ensure security.", options: ["True", "False"], answer: "False" }
+    ],
+
+    //A4 - Scenario
+    quiz13: [
+        { question: "A company has experienced unauthorized access to its server room. What physical security measure could have prevented this?", options: ["A. Installing antivirus software", "B. Using biometric authentication for access", "C. Monitoring network traffic", "D. Encrypting data"], answer: "B. Using biometric authentication for access" },
+        { question: "During a security audit, it is discovered that there are no surveillance cameras in the building. What risk does this pose?", options: ["A. Increased network performance", "B. Lack of monitoring for unauthorized physical access", "C. Enhanced data encryption", "D. Better data backup procedures"], answer: "B. Lack of monitoring for unauthorized physical access" },
+        { question: "An employee notices that data backups are not being performed regularly. What potential issue does this create?", options: ["A. Improved system performance", "B. Risk of data loss in case of a disaster", "C. Increased physical security", "D. Enhanced wireless connectivity"], answer: "B. Risk of data loss in case of a disaster" },
+        { question: "A company wants to prevent unauthorized access to its wireless network. Which physical security measure should they implement?", options: ["A. Installing CCTV cameras", "B. Using locks on all doors", "C. Implementing Wi-Fi Protected Access (WPA2)", "D. Using biometric authentication"], answer: "C. Implementing Wi-Fi Protected Access (WPA2)" },
+        { question: "An organization needs to ensure its sensitive data is protected from physical theft. What measure should be taken?", options: ["A. Installing antivirus software", "B. Storing backups in a secure off-site location", "C. Using a firewall to monitor network traffic", "D. Implementing strong password policies"], answer: "B. Storing backups in a secure off-site location" }
+    ],
+
+    //A5 - Definition
+    quiz14: [
+        { question: "What is antivirus software?", options: ["A program that speeds up computer performance.", "Software designed to detect and remove malicious software.", "A tool used to create backups.", "A system for managing network traffic."], answer: "Software designed to detect and remove malicious software." },
+        { question: "What is the purpose of a firewall?", options: ["To connect devices in a network.", "To monitor and control incoming and outgoing network traffic.", "To provide wireless internet access.", "To encrypt data."], answer: "To monitor and control incoming and outgoing network traffic." },
+        { question: "What is biometric authentication?", options: ["A method of encrypting data.", "A technique that verifies identity based on unique physical characteristics.", "A software update process.", "A method of backing up data."], answer: "A technique that verifies identity based on unique physical characteristics." },
+        { question: "What does encryption do?", options: ["Monitors network traffic.", "Secures data by converting it into a coded format.", "Manages user access rights.", "Stores data in the cloud."], answer: "Secures data by converting it into a coded format." },
+        { question: "What is the function of a Virtual Private Network (VPN)?", options: ["To increase network speed.", "To create a secure connection over a public network.", "To provide wireless access.", "To manage network devices."], answer: "To create a secure connection over a public network." }
+    ],
+    
+    //A5 - True and False
+    quiz15: [
+        { question: "True or False: Antivirus software is used to increase computer performance.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Firewalls help protect networks by filtering and monitoring traffic.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Biometric authentication includes methods like fingerprint and retina scans.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Encryption converts data into a readable format for unauthorized users.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: A Virtual Private Network (VPN) provides a secure way to access the internet over a public network.", options: ["True", "False"], answer: "True" }
+    ],
+
+    //A5 - Scenario
+    quiz16: [
+        { question: "A company wants to ensure that only authorized users can access their network. Which security measure should they implement?", options: ["A. Install antivirus software", "B. Use biometric authentication", "C. Monitor network traffic", "D. Use a VPN"], answer: "B. Use biometric authentication" },
+        { question: "An employee connects to the company network from a coffee shop using a VPN. What is the benefit of using a VPN in this scenario?", options: ["A. Faster internet speed", "B. Secure connection over a public network", "C. Improved data backup", "D. Increased network performance"], answer: "B. Secure connection over a public network" },
+        { question: "During a security audit, it is discovered that sensitive data is being transmitted without encryption. What risk does this pose?", options: ["A. Faster data transfer", "B. Unauthorized access to data", "C. Improved network connectivity", "D. Better data management"], answer: "B. Unauthorized access to data" },
+        { question: "A company implements a firewall to protect its network. What primary function does the firewall serve?", options: ["A. To speed up the internet connection", "B. To filter and monitor incoming and outgoing network traffic", "C. To provide cloud storage", "D. To perform data backups"], answer: "B. To filter and monitor incoming and outgoing network traffic" },
+        { question: "An organization uses biometric authentication for securing access to its server room. What is an example of biometric authentication?", options: ["A. Password entry", "B. Fingerprint scan", "C. Security questions", "D. PIN code"], answer: "B. Fingerprint scan" }
+    ],
+
+    //B1 - Definition
+    quiz17: [
+        { question: "What is a Local Area Network (LAN)?", options: ["A network that connects devices over large geographical distances.", "A network that connects devices within a small geographical area.", "A wireless network for personal use.", "A network designed for storing data."], answer: "A network that connects devices within a small geographical area." },
+        { question: "What is a Wide Area Network (WAN)?", options: ["A network that connects devices within a small geographical area.", "A network that connects devices over large geographical distances.", "A wireless network for personal use.", "A network designed for storing data."], answer: "A network that connects devices over large geographical distances." },
+        { question: "What is a storage area network (SAN)?", options: ["A network designed for storing data.", "A network that connects personal devices.", "A network for wireless communication.", "A network for connecting different offices."], answer: "A network designed for storing data." },
+        { question: "What is an intranet?", options: ["A private network accessible only to an organization’s staff.", "A public network for global communication.", "A network that connects different organizations.", "A network for storing data in the cloud."], answer: "A private network accessible only to an organization’s staff." },
+        { question: "What is virtualization?", options: ["The process of creating virtual versions of physical resources.", "A technique for enhancing network security.", "A method for data encryption.", "A process of storing data in the cloud."], answer: "The process of creating virtual versions of physical resources." }
+    ],
+    
+    //B1 - True and False
+    quiz18: [
+        { question: "True or False: A WLAN is a wireless local area network.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: A client/server network architecture allows all devices to share resources equally.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: An extranet is a private network that is partially accessible to authorized outsiders.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Cloud computing involves delivering computing services over the internet.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: A peer-to-peer network requires a central server for communication.", options: ["True", "False"], answer: "False" }
+    ],
+
+    //B1 - Scenario
+    quiz19: [
+        { question: "A company needs a network that can connect its offices located in different cities. Which type of network should they implement?", options: ["A. Local Area Network (LAN)", "B. Wide Area Network (WAN)", "C. Personal Area Network (PAN)", "D. Storage Area Network (SAN)"], answer: "B. Wide Area Network (WAN)" },
+        { question: "An organization wants to store and manage large amounts of data with high performance. Which network type is most suitable?", options: ["A. Local Area Network (LAN)", "B. Wide Area Network (WAN)", "C. Storage Area Network (SAN)", "D. Personal Area Network (PAN)"], answer: "C. Storage Area Network (SAN)" },
+        { question: "A company wants to ensure that its network can support remote employees accessing the system securely. What modern trend should they consider?", options: ["A. Virtualization", "B. Cloud Computing", "C. BYOD (Bring Your Own Device)", "D. Software-Defined Networking (SDN)"], answer: "B. Cloud Computing" },
+        { question: "An employee uses their personal device to connect to the company's network. What type of network topology does this scenario represent?", options: ["A. Star Topology", "B. Mesh Topology", "C. Ad-Hoc Topology", "D. Hierarchical Topology"], answer: "C. Ad-Hoc Topology" },
+        { question: "A business needs to restrict access to certain parts of its network to only specific employees. Which network architecture is best suited for this requirement?", options: ["A. Peer-to-Peer", "B. Client/Server", "C. Thin Client", "D. Virtualized Network"], answer: "B. Client/Server" }
+    ],
+    
+    //B2 - Definition
+    quiz20: [
+        { question: "What is the function of a switch in a network?", options: ["To connect multiple devices and manage data traffic between them.", "To provide internet access.", "To store data.", "To protect the network from viruses."], answer: "To connect multiple devices and manage data traffic between them." },
+        { question: "What is a flash drive?", options: ["A device for connecting to the internet.", "A portable storage device for data transfer and storage.", "A type of software for data encryption.", "A tool for monitoring network traffic."], answer: "A portable storage device for data transfer and storage." },
+        { question: "What is a network operating system?", options: ["A software that monitors network traffic.", "A system that manages network resources and devices.", "A hardware device for connecting networks.", "A storage solution for network data."], answer: "A system that manages network resources and devices." },
+        { question: "What is the purpose of a router?", options: ["To provide wireless connectivity.", "To forward data packets between computer networks.", "To store backup data.", "To manage user access rights."], answer: "To forward data packets between computer networks." },
+        { question: "What is a vulnerability scanner?", options: ["A tool for encrypting data.", "A device for connecting multiple USB devices.", "Software for identifying security weaknesses in a network.", "A method for backing up data."], answer: "Software for identifying security weaknesses in a network." }
+    ],
+    
+    //B2 - True and False
+    quiz21: [
+        { question: "True or False: A USB hub is used to expand a single USB port into several.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: An access point allows wireless devices to connect to a wired network.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Network monitoring tools can help identify performance issues and security threats.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: An Ethernet cable is used for wireless communication.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Packet sniffers are used to capture and analyze network traffic.", options: ["True", "False"], answer: "True" }
+
+    ],
+
+    //B2 - Scenario
+    quiz22: [
+        { question: "A company wants to ensure secure wireless access for its employees. Which device should they implement?", options: ["A. Switch", "B. Router", "C. Access Point", "D. USB Hub"], answer: "C. Access Point" },
+        { question: "An organization needs to regularly monitor and manage its network performance. Which tool is most suitable for this task?", options: ["A. Flash Drive", "B. Network Monitoring Software", "C. Router", "D. Ethernet Cable"], answer: "B. Network Monitoring Software" },
+        { question: "A business needs to store a large amount of data securely and make it accessible to multiple users. Which type of network should they consider?", options: ["A. Local Area Network (LAN)", "B. Storage Area Network (SAN)", "C. Personal Area Network (PAN)", "D. Wide Area Network (WAN)"], answer: "B. Storage Area Network (SAN)" },
+        { question: "An employee needs to transfer a large file from their computer to another. What external media could they use?", options: ["A. Flash Drive", "B. Router", "C. Ethernet Cable", "D. Packet Sn
+
+    ],
+
+    //B3 - Definition
+    quiz23: [
+        { question: "What is the Transmission Control Protocol/Internet Protocol (TCP/IP)?", options: ["A set of rules for managing network hardware.", "A protocol suite used for data transmission over the internet.", "A software application for monitoring network traffic.", "A type of firewall used in network security."], answer: "A protocol suite used for data transmission over the internet." },
+        { question: "What is a port in networking?", options: ["A physical connection point on a router.", "A logical endpoint for network communications.", "A type of data encryption method.", "A wireless access point."], answer: "A logical endpoint for network communications." },
+        { question: "What does Network Address Translation (NAT) do?", options: ["It connects multiple devices to the internet.", "It maps private IP addresses to a public IP address.", "It encrypts data during transmission.", "It monitors network performance."], answer: "It maps private IP addresses to a public IP address." },
+        { question: "What is the Domain Name System (DNS)?", options: ["A system for encrypting network data.", "A protocol for managing network devices.", "A service that translates domain names to IP addresses.", "A method for backing up data."], answer: "A service that translates domain names to IP addresses." },
+        { question: "What is the purpose of a Dynamic Host Configuration Protocol (DHCP)?", options: ["To provide wireless connectivity.", "To automatically assign IP addresses to devices on a network.", "To monitor network traffic.", "To store backup data."], answer: "To automatically assign IP addresses to devices on a network." }
+
+    ],
+    
+    //B3 - True and False
+    quiz24: [
+        { question: "True or False: TCP/IP is used for data transmission over the internet.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: A port is a physical connection point on a router.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: NAT maps private IP addresses to a public IP address.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: DNS translates domain names to IP addresses.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: DHCP is used to manually assign IP addresses to devices.", options: ["True", "False"], answer: "False" }
+
+    ],
+
+    //B3 - Scenario
+    quiz25: [
+        { question: "A company needs to ensure that devices on its network automatically receive unique IP addresses. Which protocol should they use?", options: ["A. DNS", "B. DHCP", "C. TCP/IP", "D. NAT"], answer: "B. DHCP" },
+        { question: "An employee needs to access a website using its domain name. Which network service translates the domain name to an IP address?", options: ["A. DHCP", "B. NAT", "C. DNS", "D. TCP/IP"], answer: "C. DNS" },
+        { question: "A network administrator wants to allow multiple devices to share a single public IP address for internet access. Which technology should they implement?", options: ["A. DNS", "B. DHCP", "C. NAT", "D. TCP/IP"], answer: "C. NAT" },
+        { question: "A business needs to set up a secure connection between different network segments. Which network component is most suitable?", options: ["A. Firewall", "B. Switch", "C. Router", "D. Access Point"], answer: "C. Router" },
+        { question: "A user is unable to connect to the network because their device has not received an IP address. What network service is likely malfunctioning?", options: ["A. DNS", "B. NAT", "C. DHCP", "D. TCP/IP"], answer: "C. DHCP" }
+    ],
+
+    
+    //C1 - Definition
+    quiz26: [
+        { question: "What is a port scanner?", options: ["A tool used to connect different network devices.", "A software application that searches a network for open ports.", "A hardware device that stores network data.", "A program that encrypts data during transmission."], answer: "A software application that searches a network for open ports." },
+        { question: "What is a registry checker?", options: ["A device that connects computers to a network.", "A software tool that scans the system registry for potential issues.", "A method of encrypting data.", "A type of network cable."], answer: "A software tool that scans the system registry for potential issues." },
+        { question: "What is the purpose of a website vulnerability scanner?", options: ["To enhance website performance.", "To detect security vulnerabilities in web applications.", "To store website data.", "To monitor website traffic."], answer: "To detect security vulnerabilities in web applications." },
+        { question: "What is penetration testing?", options: ["A process of improving network speed.", "A method of testing a system’s security by simulating attacks.", "A technique for creating backups.", "A tool for managing user access."], answer: "A method of testing a system’s security by simulating attacks." },
+        { question: "What is a vulnerability detection and management software?", options: ["Software designed to store data securely.", "A tool used to identify, report, and manage security vulnerabilities.", "A program that connects devices to a network.", "A system for monitoring employee performance."], answer: "A tool used to identify, report, and manage security vulnerabilities." }
+
+    ],
+    
+    //C1 - True and False
+    quiz27: [
+        { question: "True or False: A port scanner is used to search for open ports on a network.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: A registry checker scans the system registry for potential issues.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Website vulnerability scanners are used to detect performance issues in web applications.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Penetration testing involves simulating attacks to test a system’s security.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Vulnerability detection and management software is used to create network backups.", options: ["True", "False"], answer: "False" }
+    ],
+
+    //C1 - Scenario
+    quiz28: [
+        { question: "A company wants to identify open ports on its network to secure them against potential attacks. Which tool should they use?", options: ["A. Registry Checker", "B. Port Scanner", "C. Penetration Testing", "D. Website Vulnerability Scanner"], answer: "B. Port Scanner" },
+        { question: "An organization needs to scan its website for security vulnerabilities regularly. Which tool is best suited for this task?", options: ["A. Registry Checker", "B. Port Scanner", "C. Website Vulnerability Scanner", "D. Penetration Testing"], answer: "C. Website Vulnerability Scanner" },
+        { question: "A business suspects that its system may have hidden vulnerabilities. To identify these vulnerabilities, they decide to simulate real-world attacks. What is this process called?", options: ["A. Registry Checking", "B. Port Scanning", "C. Penetration Testing", "D. Website Vulnerability Scanning"], answer: "C. Penetration Testing" },
+        { question: "After a security breach, an organization wants to ensure that their system registry is free of any issues. Which tool should they use?", options: ["A. Registry Checker", "B. Port Scanner", "C. Penetration Testing", "D. Vulnerability Detection and Management Software"], answer: "A. Registry Checker" },
+        { question: "A network administrator needs to regularly identify and manage security vulnerabilities in the network. Which tool would be most effective?", options: ["A. Registry Checker", "B. Port Scanner", "C. Website Vulnerability Scanner", "D. Vulnerability Detection and Management Software"], answer: "D. Vulnerability Detection and Management Software" }
+
+    ],
+
+    //C2 - Definition
+    quiz29: [
+        { question: "What is risk severity in the context of cybersecurity?", options: ["A measure of how likely a system is to perform well under stress.", "A measure of the probability of a threat occurring multiplied by the expected impact level.", "A rating of the cost of cybersecurity measures.", "A type of data encryption method."], answer: "A measure of the probability of a threat occurring multiplied by the expected impact level." },
+        { question: "What does a risk severity level of 'extreme' indicate?", options: ["A threat with low impact but high probability.", "A threat with high impact and high probability.", "A threat that occurs rarely.", "A threat with moderate impact and low probability."], answer: "A threat with high impact and high probability." },
+        { question: "What does the term 'impact level' refer to in a risk assessment?", options: ["The financial cost of implementing security measures.", "The potential damage or loss that could result from a threat.", "The likelihood of a threat occurring.", "The complexity of a cybersecurity system."], answer: "The potential damage or loss that could result from a threat." },
+        { question: "How is the probability of a threat occurring classified in risk assessments?", options: ["Low, Medium, High", "Rare, Occasional, Frequent", "Unlikely, Likely, Very Likely", "Minor, Moderate, Major"], answer: "Unlikely, Likely, Very Likely" },
+        { question: "What is the purpose of a risk severity matrix?", options: ["To allocate financial resources for cybersecurity.", "To evaluate the severity of risks by combining probability and impact.", "To monitor network performance.", "To schedule regular security audits."], answer: "To evaluate the severity of risks by combining probability and impact." }
+
+    ],
+    
+    //C2 - True and False
+    quiz30: [
+        { question: "True or False: A risk with high impact and low probability should be classified as 'extreme'.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: The impact level of a risk can be minor, moderate, or major.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Regular risk assessments are only necessary after a security breach.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Risk severity is calculated as the probability of a threat occurring multiplied by its impact level.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: A risk severity matrix helps in determining the appropriate response to identified risks.", options: ["True", "False"], answer: "True" }
+    ],
+
+    //C2 - Scenario
+    quiz31: [
+        { question: "A company's data server is at risk of being accessed by unauthorized users. The impact of such a breach is major, but the probability is unlikely. What is the risk severity?", options: ["A. Low", "B. Medium", "C. High", "D. Extreme"], answer: "B. Medium" },
+        { question: "During a risk assessment, an IT manager identifies a threat with a very likely probability and moderate impact. How should this risk be classified?", options: ["A. Low", "B. Medium", "C. High", "D. Extreme"], answer: "C. High" },
+        { question: "A cybersecurity audit reveals a potential threat that is likely to occur monthly and could cause significant financial loss. What should the company do?", options: ["A. Ignore the threat", "B. Accept the risk", "C. Implement risk mitigation strategies", "D. Transfer the risk to a third party"], answer: "C. Implement risk mitigation strategies" },
+        { question: "An IT department conducts a risk assessment for their new software deployment. They identify a threat with minor impact but very likely probability. How should this risk be managed?", options: ["A. Low", "B. Medium", "C. High", "D. Extreme"], answer: "B. Medium" },
+        { question: "A company identifies a threat with major impact and very likely probability. What classification and action are appropriate?", options: ["A. Low - Monitor the threat", "B. Medium - Review security measures", "C. High - Enhance security protocols", "D. Extreme - Immediate action and comprehensive review"], answer: "D. Extreme - Immediate action and comprehensive review" }
+
+    ],
+
+    //C2 - Definition
+    quiz32: [
+
+    ],
+    
+    //C2 - True and False
+    quiz33: [
+      
+    ],
+
+    //C2 - Scenario
+    quiz34: [
+
+    ],
+    
 };
         
 
