@@ -1,4 +1,4 @@
-const quizData = {
+    const quizData = {
     //A1 - Definition
     quiz2: [
         { question: "What is employee sabotage?", options: ["A management technique aimed at improving employee morale.", "A form of industrial action commonly endorsed by trade unions.", "The deliberate act of damaging or undermining workplace operations by an employee.", "A training program to enhance employee productivity."], answer: "The deliberate act of damaging or undermining workplace operations by an employee." },
@@ -377,21 +377,147 @@ const quizData = {
 
     ],
 
-    //C2 - Definition
+    //C3 - Definition
     quiz32: [
-
+        { question: "What is a cyber security protection plan?", options: ["A plan for improving company morale.", "A detailed strategy for protecting a networked system from cyber threats.", "A document outlining employee benefits.", "A guideline for company financial planning."], answer: "A detailed strategy for protecting a networked system from cyber threats." },
+        { question: "What are hardware protection measures?", options: ["Steps to improve software performance.", "Physical devices like firewalls, routers, and wireless access points used to secure a network.", "Methods for backing up data.", "Techniques for monitoring network traffic."], answer: "Physical devices like firewalls, routers, and wireless access points used to secure a network." },
+        { question: "What are software protection measures?", options: ["Techniques to encrypt data.", "Antivirus software, firewalls, port scanning, access rights, and information availability.", "Physical locks and CCTV cameras.", "Policies for employee internet use."], answer: "Antivirus software, firewalls, port scanning, access rights, and information availability." },
+        { question: "What are physical protection measures?", options: ["Measures like locks, CCTV, alarms, and secure data storage and backups.", "Software updates and patches.", "Network traffic monitoring.", "Employee training programs."], answer: "Measures like locks, CCTV, alarms, and secure data storage and backups." },
+        { question: "What is the purpose of a test plan in a cyber security protection plan?", options: ["To increase network speed.", "To check that protection measures work as intended.", "To train employees on security protocols.", "To monitor employee performance."], answer: "To check that protection measures work as intended." }
     ],
     
-    //C2 - True and False
+    //C3 - True and False
     quiz33: [
-      
+        { question: "True or False: A cyber security protection plan includes both hardware and software protection measures.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Physical protection measures include antivirus software and firewalls.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: A test plan is used to ensure that protection measures in a cyber security plan are effective.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Risk transfer involves stopping an activity to avoid a risk.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: A cyber security protection plan should consider both technical and financial constraints.", options: ["True", "False"], answer: "True" }
+
     ],
 
-    //C2 - Scenario
+    //C3 - Scenario
     quiz34: [
+        { question: "A company wants to protect its network from external threats. Which hardware protection measure should they implement?", options: ["A. Installing firewalls", "B. Conducting regular employee training", "C. Updating software", "D. Implementing strong password policies"], answer: "A. Installing firewalls" },
+        { question: "An organization plans to implement a new cybersecurity policy that includes regular data backups and secure off-site storage. Which type of protection measure does this represent?", options: ["A. Hardware protection measure", "B. Software protection measure", "C. Physical protection measure", "D. Alternative risk management measure"], answer: "C. Physical protection measure" },
+        { question: "After a security breach, a company decides to commission a service provider to manage certain risks. What type of risk management measure is this?", options: ["A. Risk avoidance", "B. Risk transfer", "C. Risk acceptance", "D. Risk mitigation"], answer: "B. Risk transfer" },
+        { question: "A business identifies that unauthorized access to its servers is a high risk with major impact. What should be included in their cybersecurity protection plan to address this?", options: ["A. Installing CCTV cameras", "B. Using biometric authentication", "C. Updating antivirus software", "D. Conducting regular employee surveys"], answer: "B. Using biometric authentication" },
+        { question: "A company needs to verify that its new cybersecurity measures are effective. What should they create?", options: ["A. A financial report", "B. A test plan", "C. A user manual", "D. An employee handbook"], answer: "B. A test plan" }
+    ],
+
+    //D1 - Definition
+    quiz35: [
+        { question: "What is the purpose of a cyber security policy?", options: ["To increase company profits.", "To outline the security measures and procedures to protect IT systems and data.", "To monitor employee performance.", "To manage financial records."], answer: "To outline the security measures and procedures to protect IT systems and data." },
+        { question: "What is a Computer Security Incident Response Team (CSIRT)?", options: ["A team responsible for developing new software.", "A team tasked with responding to and managing IT security incidents.", "A group that monitors network traffic.", "A department for employee training."], answer: "A team tasked with responding to and managing IT security incidents." },
+        { question: "What does a backup policy define?", options: ["How to monitor network performance.", "The selection of data to be backed up, methods, frequency, and storage locations.", "The procedures for employee internet use.", "The guidelines for software development."], answer: "The selection of data to be backed up, methods, frequency, and storage locations." },
+        { question: "What is the main focus of an incident response policy?", options: ["To increase sales.", "To outline the steps to be taken during and after a security incident.", "To provide customer service.", "To manage financial transactions."], answer: "To outline the steps to be taken during and after a security incident." },
+        { question: "What is the role of security audits?", options: ["To ensure compliance with security policies and identify areas for improvement.", "To develop new software.", "To manage employee schedules.", "To handle customer complaints."], answer: "To ensure compliance with security policies and identify areas for improvement." }
+    ],
+    
+    //D1 - True and False
+    quiz36: [
+        { question: "True or False: A cyber security policy is designed to protect IT systems and data.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: The CSIRT is responsible for developing new company policies.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: A backup policy should specify the frequency of data backups.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: An incident response policy outlines the steps to be taken after a security breach.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Security audits are used to ensure compliance with cybersecurity policies.", options: ["True", "False"], answer: "True" }
+    ],
+
+    //D1 - Scenario
+    quiz37: [
+        { question: "A company experiences a data breach. Which policy outlines the steps they should follow to respond to the incident?", options: ["A. Data Protection Policy", "B. Backup Policy", "C. Incident Response Policy", "D. Internet Use Policy"], answer: "C. Incident Response Policy" },
+        { question: "An employee accidentally deletes important files. Which policy ensures that these files can be restored?", options: ["A. Data Protection Policy", "B. Backup Policy", "C. Security Audit Policy", "D. Email Use Policy"], answer: "B. Backup Policy" },
+        { question: "A security audit reveals that employees are not following the company's password procedures. What action should the company take?", options: ["A. Update the financial records", "B. Provide additional training on password procedures", "C. Change the company logo", "D. Increase sales targets"], answer: "B. Provide additional training on password procedures" },
+        { question: "A new virus is detected on the company's network. Who should take immediate action to contain and manage the incident?", options: ["A. Financial Department", "B. Marketing Team", "C. CSIRT", "D. Customer Service"], answer: "C. CSIRT" },
+        { question: "A company wants to ensure that all data backups are stored securely off-site. Which aspect of their policy should they review?", options: ["A. Data Protection Policy", "B. Backup Policy", "C. Incident Response Policy", "D. Internet Use Policy"], answer: "B. Backup Policy" }
+
+    ],
+
+    //D2 - Definition
+    quiz38: [
+        { question: "What is an external service provider (ESP) agreement?", options: ["A contract for internal IT support.", "An agreement with a third party to provide cloud, hardware, or software services.", "A policy for employee internet use.", "A guideline for data encryption."], answer: "An agreement with a third party to provide cloud, hardware, or software services." },
+        { question: "What does 'legal ownership and jurisdiction' refer to in an ESP agreement?", options: ["The physical location of the service provider's offices.", "The laws and regulations governing data ownership and movement across borders.", "The financial cost of the service provided.", "The technical specifications of the service."], answer: "The laws and regulations governing data ownership and movement across borders." },
+        { question: "What is the main focus of 'security protection' in ESP agreements?", options: ["Ensuring data security, privacy, encryption, and liability for data breaches or loss.", "Improving network speed.", "Developing new software features.", "Monitoring employee productivity."], answer: "Ensuring data security, privacy, encryption, and liability for data breaches or loss." },
+        { question: "What does 'dispute resolution' involve in the context of ESP agreements?", options: ["Setting employee performance targets.", "Establishing procedures for resolving conflicts and issues arising from the agreement.", "Creating marketing strategies.", "Implementing financial plans."], answer: "Establishing procedures for resolving conflicts and issues arising from the agreement." },
+        { question: "What is 'risk transfer' in the context of alternative risk management measures?", options: ["Stopping an activity to avoid risk.", "Commissioning a service provider to manage certain risks.", "Accepting the risk without any action.", "Enhancing security protocols."], answer: "Commissioning a service provider to manage certain risks." }
 
     ],
     
+    //D2 - True and False
+    quiz39: [
+        { question: "True or False: ESP agreements typically include provisions for cloud, hardware, and software services.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Legal ownership and jurisdiction refer to the financial cost of the service provided.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Security protection in ESP agreements includes ensuring data security, privacy, and encryption.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Dispute resolution involves setting employee performance targets.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Many points in ESP agreements are covered by data protection laws.", options: ["True", "False"], answer: "True" }
+
+    ],
+
+    //D2 - Scenario
+    quiz40: [
+        { question: "A company wants to move its data storage to the cloud using an external service provider. What aspect of the ESP agreement should they review to ensure data privacy and security?", options: ["A. Financial cost", "B. Legal ownership and jurisdiction", "C. Employee internet use policy", "D. Marketing strategies"], answer: "B. Legal ownership and jurisdiction" },
+        { question: "An organization is concerned about data breaches and wants to ensure their ESP agreement includes clear responsibilities for data security. Which section should they focus on?", options: ["A. Dispute resolution", "B. Security protection", "C. Financial planning", "D. Technical specifications"], answer: "B. Security protection" },
+        { question: "A company is using an external service provider for software development. They want to ensure that any issues or conflicts can be resolved effectively. Which part of the ESP agreement is relevant?", options: ["A. Marketing strategies", "B. Dispute resolution", "C. Network speed", "D. Employee performance"], answer: "B. Dispute resolution" },
+        { question: "A business wants to understand the potential legal implications of using a service provider located in another country. Which aspect of the ESP agreement should they examine?", options: ["A. Financial cost", "B. Legal ownership and jurisdiction", "C. Technical support", "D. Product features"], answer: "B. Legal ownership and jurisdiction" },
+        { question: "An organization is considering transferring certain IT risks to an external service provider. What type of risk management measure does this represent?", options: ["A. Risk avoidance", "B. Risk transfer", "C. Risk acceptance", "D. Risk enhancement"], answer: "B. Risk transfer" }
+
+    ],
+
+    //E1 - Definition
+    quiz41: [
+        { question: "What is desktop forensics?", options: ["The process of designing desktop applications.", "The practice of confiscating devices and analyzing their data to investigate a security incident.", "A method for improving desktop computer performance.", "A type of software for managing desktop files."], answer: "The practice of confiscating devices and analyzing their data to investigate a security incident." },
+        { question: "What is the purpose of taking an image of the system in forensic collection?", options: ["To improve system speed.", "To create a backup of all system data for analysis.", "To enhance user experience.", "To monitor network traffic."], answer: "To create a backup of all system data for analysis." },
+        { question: "What does live forensics refer to?", options: ["Forensic analysis performed on a powered-off system.", "Forensic analysis conducted while the system is running.", "The development of new forensic tools.", "The use of automated backup procedures."], answer: "Forensic analysis conducted while the system is running." },
+        { question: "What is network forensics?", options: ["The practice of monitoring employee internet use.", "The process of analyzing network traffic and data to investigate security incidents.", "A method for improving network speed.", "The development of secure network protocols."], answer: "The process of analyzing network traffic and data to investigate security incidents." },
+        { question: "What is malware analysis?", options: ["The practice of encrypting data.", "The process of identifying, studying, and understanding malicious software.", "A method for creating data backups.", "A technique for optimizing system performance."], answer: "The process of identifying, studying, and understanding malicious software." }
+
+    ],
+    
+    //E1 - True and False
+    quiz42: [
+        { question: "True or False: Desktop forensics involves reviewing files, settings, system logs, and user activity.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Live forensics refers to analysis performed on a system that is powered off.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Network forensics includes analyzing firewalls and infrastructure device logs.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Malware analysis is the process of encrypting network traffic.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Taking an image of the system is an essential step in forensic collection.", options: ["True", "False"], answer: "True" }
+    ],
+
+    //E1 - Scenario
+    quiz43: [
+        { question: "After a security incident, a company's IT team confiscates an employee's computer for investigation. What type of forensic analysis are they conducting?", options: ["A. Network forensics", "B. Desktop forensics", "C. Live forensics", "D. Malware analysis"], answer: "B. Desktop forensics" },
+        { question: "During a forensic investigation, analysts need to review real-time data stored in the system's memory. What type of forensics is this?", options: ["A. Network forensics", "B. Desktop forensics", "C. Live forensics", "D. Malware analysis"], answer: "C. Live forensics" },
+        { question: "A forensic analyst is tasked with examining the logs of a company's router and switch to trace the source of an attack. What type of forensic analysis are they performing?", options: ["A. Desktop forensics", "B. Network forensics", "C. Live forensics", "D. Malware analysis"], answer: "B. Network forensics" },
+        { question: "An organization needs to ensure that the forensic analysis does not alter the original data on a suspect system. What initial step should they take?", options: ["A. Perform malware analysis", "B. Take an image of the system", "C. Conduct network scanning", "D. Review user activity"], answer: "B. Take an image of the system" },
+        { question: "A security incident involves a suspicious software found on multiple devices. What specific forensic analysis should be conducted to understand the nature of this software?", options: ["A. Network forensics", "B. Desktop forensics", "C. Live forensics", "D. Malware analysis"], answer: "D. Malware analysis" }
+    ],
+
+    //E2 - Definition
+    quiz44: [
+        { question: "What is the purpose of maintaining an accurate record during forensic analysis?", options: ["To improve system performance.", "To ensure all findings are documented and reliable.", "To develop new software.", "To enhance user experience."], answer: "To ensure all findings are documented and reliable." },
+        { question: "What is the significance of retaining snapshots of the system?", options: ["To speed up data processing.", "To provide a visual representation of the system at specific points in time for analysis.", "To reduce storage space.", "To improve network connectivity."], answer: "To provide a visual representation of the system at specific points in time for analysis." },
+        { question: "What is meant by 'creating visual evidence of findings'?", options: ["Improving the aesthetic design of software.", "Generating graphical representations of data to support forensic analysis.", "Enhancing data encryption methods.", "Developing user-friendly interfaces."], answer: "Generating graphical representations of data to support forensic analysis." },
+        { question: "What is the purpose of evaluating findings in forensic analysis?", options: ["To determine whether the evidence supports the occurrence of a crime or incident.", "To create backups of the data.", "To monitor network traffic.", "To train employees on security protocols."], answer: "To determine whether the evidence supports the occurrence of a crime or incident." },
+        { question: "What does preserving evidence in forensic analysis involve?", options: ["Deleting unnecessary files.", "Ensuring that evidence is not altered or destroyed during the investigation.", "Enhancing system performance.", "Developing new security software."], answer: "Ensuring that evidence is not altered or destroyed during the investigation." }
+
+    ],
+    
+    //E2 - True and False
+    quiz45: [
+        { question: "True or False: Maintaining accurate records during forensic analysis ensures all findings are reliable.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Retaining snapshots of the system is unnecessary for forensic analysis.", options: ["True", "False"], answer: "False" },
+        { question: "True or False: Visual evidence of findings helps support forensic analysis.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Evaluating findings in forensic analysis determines if they provide evidence of a crime or incident.", options: ["True", "False"], answer: "True" },
+        { question: "True or False: Preserving evidence means ensuring it is not altered during the investigation.", options: ["True", "False"], answer: "True" }
+    ],
+
+    //E2 - Scenario
+    quiz46: [
+        { question: "During a forensic investigation, an analyst needs to ensure that the data on a suspect system is not altered. What initial step should they take?", options: ["A. Perform a malware scan", "B. Create a snapshot of the system", "C. Update the system software", "D. Enhance network security"], answer: "B. Create a snapshot of the system" },
+        { question: "A forensic team finds discrepancies in the system logs after a security breach. What should they do next?", options: ["A. Ignore the discrepancies", "B. Document the findings and assess their reliability", "C. Delete the system logs", "D. Restart the system"], answer: "B. Document the findings and assess their reliability" },
+        { question: "An IT manager needs to create visual evidence of findings during a forensic analysis. What tools might they use?", options: ["A. Data visualization software", "B. Network monitoring tools", "C. Antivirus software", "D. Encryption software"], answer: "A. Data visualization software" },
+        { question: "A company wants to ensure that all forensic findings are properly recorded and reliable. What practice should they implement?", options: ["A. Regular system backups", "B. Maintaining accurate records and documenting all findings", "C. Employee training programs", "D. Network performance monitoring"], answer: "B. Maintaining accurate records and documenting all findings" },
+        { question: "After identifying a potential compromise, what should a forensic analyst do to ensure the evidence is preserved?", options: ["A. Remove the hard drive and store it securely", "B. Format the hard drive", "C. Install new software", "D. Change system settings"], answer: "A. Remove the hard drive and store it securely" }
+    ],  
 };
         
 
